@@ -1,9 +1,7 @@
 
 # -*- coding: utf-8 -*-
 """
-Created on Sun May  9 19:08:30 2021
-
-@author: Administrator
+@author: Xutengfei
 """
 import glob
 import os

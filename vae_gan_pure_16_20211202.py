@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Wed May 30
-
-@author: xtf
+@author: Xutengfei
 """
 
 
@@ -43,23 +41,7 @@ import datetime
 # log_dir="logs/fit/" + datetime.datetime.now().strftime("%Y%m%d-%H%M%S")
 
 current_time = datetime.datetime.now().strftime("%Y%m%d-%H%M%S")
-# train_log_dir = 'logs/gradient_tape/' + current_time + '/train'
-# test_log_dir = 'logs/gradient_tape/' + current_time + '/test'
-# train_summary_writer = tf.summary.create_file_writer(train_log_dir)
-# test_summary_writer = tf.summary.create_file_writer(test_log_dir)
 
-# # 按这种默认的写法，就会导致ValueError: Expected scalar shape, saw shape: (4,).
-# # 原因很简单，默认的里面结构就是只能接收一个loss
-# tensorboard_callback = tf.keras.callbacks.TensorBoard(log_dir=train_log_dir, histogram_freq=1)
-
-# class My_tensorboardcallback(TensorBoard):
-#     def __init__(self, **kwargs):
-#         super().__init__(**kwargs)
-
-#     def on_epoch_end(self, epoch, logs=None):
-#         super(My_tensorboardcallback, self).on_epoch_end(epoch,logs)
-#         writer = self._get_writer(self._validation_run_name)
-#         with writer.as_default():
 
 
 
